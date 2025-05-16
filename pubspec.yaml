@@ -1,0 +1,79 @@
+name: the_conduit
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: # Added for localization
+    sdk: flutter         # Added for localization
+
+  # UI & Theming
+  google_fonts: ^6.1.0 # For custom fonts
+  cupertino_icons: ^1.0.2 # iOS style icons
+  flutter_colorpicker: ^1.0.3 # For color selection
+  flutter_slidable: ^3.0.0 # For slidable list items
+  photo_view: ^0.14.0 # For image preview with zoom/pan
+  collection: ^1.18.0
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+
+  # Cryptography & Security
+  crypto: ^3.0.3
+  encrypt: ^5.0.3
+  flutter_secure_storage: ^9.0.0
+  uuid: ^4.5.1
+  cryptography: ^2.5.0 # Added based on analysis
+
+  # Database
+  sembast: ^3.6.0 # For NoSQL database
+  sembast_web: ^2.2.0 # Sembast for web
+  url_launcher: ^6.1.14
+
+  # Firebase (Placeholder - if needed for chat backend)
+  # firebase_core: ^2.24.2
+  cloud_firestore: ^4.17.5
+  firebase_core: 2.32.0
+  firebase_auth: ^4.16.0
+  firebase_storage: ^11.6.5
+
+  # Other utilities
+  intl: ^0.19.0 # Updated to resolve conflict with flutter_localizations
+  path_provider: ^2.0.11 # For accessing filesystem paths
+  shared_preferences: ^2.2.2 # For simple data persistence
+  image_picker: ^1.0.7 # For picking images
+  file_picker: ^6.1.1 # For picking files
+  permission_handler: ^11.0.1 # For handling permissions
+  animated_text_kit: ^4.2.2 # For animated text
+  logger: ^2.0.1 # For logging
+  share_plus: ^7.2.1 # For sharing content
+  universal_html: ^2.2.4 # Added for web file saving
+  image: ^4.0.17 # Added for image processing in steganography
+  device_info_plus: ^11.3.0
+  mime: ^1.0.6
+  path: ^1.9.0
+  connectivity_plus: ^6.1.4
+  video_player: ^2.9.5
+
+  # audioplayers: ^6.4.0
+  open_file_plus: ^3.4.1+1
+  dio: ^5.8.0+1
+  package_info_plus: ^8.3.0
+
+  # Added for remote control agent
+  flutter_background_service: ^5.0.5 # For running tasks in background as a foreground service
+  audioplayers: ^6.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
